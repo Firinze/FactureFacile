@@ -1,0 +1,78 @@
+/* Style général */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Couleur de fond douce */
+    color: #343a40; /* Couleur de texte sombre */
+    margin: 0;
+    padding: 20px;
+}
+
+/* En-tête */
+header {
+    background-color: #007bff; /* Couleur de l'en-tête */
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Boutons */
+.btn {
+    border-radius: 25px; /* Coins arrondis */
+    transition: background-color 0.3s, transform 0.3s; /* Transition douce */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Couleur au survol */
+    transform: scale(1.05); /* Légère augmentation de taille */
+}
+
+/* Table */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6; /* Ligne de séparation */
+}
+
+.table th {
+    background-color: #007bff; /* Couleur d'en-tête de table */
+    color: white;
+}
+
+/* Lignes de table */
+.custom-row:hover {
+    background-color: #e9ecef; /* Couleur de survol des lignes */
+}
+
+/* Modals */
+.modal-header {
+    background-color: #007bff; /* Couleur d'en-tête de modal */
+    color: white;
+}
+
+.modal-footer {
+    background-color: #f1f1f1; /* Couleur de pied de modal */
+}
+
+/* Champ de recherche */
+.form-control {
+    border-radius: 25px; /* Coins arrondis */
+    border: 1px solid #ced4da; /* Bordure douce */
+}
+
+/* Alertes */
+.alert {
+    border-radius: 5px; /* Coins arrondis pour les alertes */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .btn {
+        width: 100%; /* Boutons en pleine largeur sur mobile */
+    }
+}
