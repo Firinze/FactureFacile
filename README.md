@@ -66,7 +66,7 @@ Les contributions sont les bienvenues ! Si vous souhaitez contribuer, veuillez s
 5. Ouvrez une Pull Request
 
 ## Auteurs
-- Firinze Gbènito DOSSOU - [Votre Profil GitHub](https://github.com/votre-utilisateur)
+- Firinze Gbènito DOSSOU - [Mon Profil GitHub](https://github.com/Firinze)
 
 ## License
 Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
